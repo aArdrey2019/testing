@@ -11,6 +11,7 @@
 	float: left;
 	margin-top: 5px;
 	margin-left: 1%;
+	cursor: pointer;
 }
 .title{
 	width: 50%;
@@ -28,6 +29,16 @@
 	color: black;
 	text-decoration: none;
 }
+.nav2 a{
+	padding-top: 13px;
+	text-decoration: none;
+	color: black;
+	cursor: pointer;
+	}
+.nav2 a hover:{
+	box-shadow: 1 1 3 black;
+	cursor: pointer;
+	}
 @media screen and (max-width: 320px) and (min-width:0px){
 	.header-container{
 		height: 50px;
@@ -42,11 +53,25 @@
 	.nav{
 		visibility: hidden;
 	}
-	.nav2{
-		
-	}
 }
 @media screen and (max-width:480px) and (min-width:320px){
+	.nav{
+		visibility: hidden;
+	}
+	.title{
+		visibility: hidden;
+		width: 0px;
+	}
+	.nav2{
+		float: right;
+		margin-right: 25px;
+		margin-top: 25px;
+		font-size: 15px;
+	}
+	.logo{
+		width: 60%;
+		margin-top: 6px;
+	}
 }
 @media screen and (max-width:768px) and (min-width:480px){
 }
